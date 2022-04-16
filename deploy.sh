@@ -14,10 +14,10 @@ cd docs/.vuepress/dist
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:benym/benymbook.git
+  githubUrl=git@github.com:benym/benym-book.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://benym:${GITHUB_TOKEN}@github.com/benym/benymbook.git
+  githubUrl=https://benym:${GITHUB_TOKEN}@github.com/benym/benym-book.git
   git config --global user.name "benym"
   git config --global user.email "benyuanming@gmail.com"
 fi
