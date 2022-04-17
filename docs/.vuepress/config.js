@@ -7,7 +7,7 @@ module.exports = {
     theme: 'vdoing', // 使用依赖包主题
     // theme: require.resolve('../../vdoing'), // 使用本地主题
 
-    title: "vuepress-theme-vdoing",
+    title: "Knowledge base by benym",
     description: 'benym的知识管理&博客',
     base: '/benym-book/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
     head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
@@ -58,12 +58,12 @@ module.exports = {
             //     ]
             // },
             {
-                text: 'Java', link: '', items: [
+                text: 'Java', link: '/pages/225727/', items: [
                     {text: 'Java-基础', link: '/pages/225727/'},
                     {text: 'Java-集合', link: '/pages/9786e5/'},
                     {text: 'Java-多线程与并发', link: '/pages/487c60/'},
                     {text: 'Java-JVM', link: '/pages/0a146e/'},
-                    {text: 'Java-IO', link: ''}
+                    {text: 'Java-IO', link: '/pages/4aef64/'}
                 ]
             },
             {
@@ -74,7 +74,7 @@ module.exports = {
             },
             {
                 text: '分布式与中间件', link: '', items: [
-                    {text: 'Kafka', link: ''},
+                    {text: 'Kafka', link: '/pages/b53b0f/'},
                     {text: 'Redis', link: '/pages/847591/'},
                     {text: '分布式事务', link: '/pages/aaed8c/'},
                 ]
@@ -91,15 +91,15 @@ module.exports = {
                     {
                         text: 'Spring',
                         items: [
-                            {text: 'SpringIOC', link: ''},
+                            {text: 'SpringIOC', link: '/pages/6e0b99/'},
                             {text: 'SpringAOP', link: '/pages/a657d3/'},
                         ],
                     },
                 ],
             },
             {
-                text: '算法', link: '/pages/f411af/', items: [
-                    {text: '剑指Offer', link: '/pages/f411af/'},
+                text: '算法', link: '/pages/83cdcf/', items: [
+                    {text: '剑指Offer', link: '/pages/83cdcf/'},
                     {text: 'LeetCode', link: '/pages/b2b5b5/'},
                     {text: '排序算法', link: '/pages/8d006a/'},
                 ]
@@ -113,20 +113,20 @@ module.exports = {
                     {text: '标签', link: '/tags/'},
                 ]
             },
-            {text: '目录', link: '/pages/ad6515/'},
+            {text: '目录', link: '/pages/059f1f/'},
             // {text: '案例', link: '/pages/5d571c/'},
             // {text: '问答', link: '/pages/9cc27d/'},
             // {text: '💖支持', link: '/pages/1b12ed/'},
         ],
         sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-        logo: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png', // 导航栏logo
+        logo: 'https://image-1-1257237419.cos.ap-chongqing.myqcloud.com/img/SITELOG.png', // 导航栏logo
         repo: 'https://github.com/benym', // 导航栏右侧生成Github链接
         searchMaxSuggestions: 10, // 搜索结果显示最大数
         lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
 
-        // docsDir: 'docs', // 编辑的文件夹
-        // editLinks: true, // 编辑链接
-        // editLinkText: '编辑',
+        docsDir: 'docs', // 编辑的文件夹
+        editLinks: true, // 编辑链接
+        editLinkText: '编辑',
 
         // 以下配置是Vdoing主题改动的和新增的配置
         sidebar: {mode: 'structuring', collapsable: false}, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
@@ -161,9 +161,9 @@ module.exports = {
             href: 'https://github.com/benym' // 可选的
         },
         blogger: {
-            avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
+            avatar: 'https://image-1-1257237419.cos.ap-chongqing.myqcloud.com/sitelogo3.jpg/zipstyle',
             name: 'benym',
-            slogan: '学习',
+            slogan: '惟其艰难，才更显勇毅🍂惟其笃行，才弥足珍贵',
         },
         social: { // 社交图标，显示于博主信息栏和页脚栏
             // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
@@ -187,7 +187,7 @@ module.exports = {
         },
         footer: { // 页脚信息
             createYear: 2022, // 博客创建年份
-            copyrightInfo: 'BEN YM | MIT License', // 博客版权信息，支持a标签
+            copyrightInfo: 'BEN YM | <a href="https://github.com/benym/benym-book/blob/master/LICENSE" target="_blank">MIT License</a> | <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">渝ICP备18012574号</a>', // 博客版权信息，支持a标签
         },
         // html广告
         // htmlModules,
