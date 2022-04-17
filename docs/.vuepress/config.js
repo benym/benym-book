@@ -114,13 +114,14 @@ module.exports = {
                 ]
             },
             {text: '目录', link: '/pages/059f1f/'},
+            {text: '关于', link: '/about/'},
             // {text: '案例', link: '/pages/5d571c/'},
             // {text: '问答', link: '/pages/9cc27d/'},
             // {text: '💖支持', link: '/pages/1b12ed/'},
         ],
         sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
         logo: 'https://image-1-1257237419.cos.ap-chongqing.myqcloud.com/img/guideline.png', // 导航栏logo
-        repo: 'https://github.com/benym', // 导航栏右侧生成Github链接
+        repo: 'benym/benym-book/', // 导航栏右侧生成Github链接
         searchMaxSuggestions: 10, // 搜索结果显示最大数
         lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
 
@@ -170,19 +171,19 @@ module.exports = {
             icons: [
                 {
                     iconClass: 'icon-youjian',
-                    title: '发邮件',
+                    title: '邮件',
                     link: 'mailto:675260709@qq.com'
                 },
                 {
                     iconClass: 'icon-github',
                     title: 'GitHub',
                     link: 'https://github.com/benym'
+                },
+                {
+                    iconClass: 'icon-zhihu',
+                    title: '知乎',
+                    link: 'https://www.zhihu.com/people/xu-ge-yuan-ba-68'
                 }
-                // {
-                //     iconClass: 'icon-erji',
-                //     title: '听音乐',
-                //     link: 'https://music.163.com/#/playlist?id=755597173'
-                // }
             ]
         },
         footer: { // 页脚信息
