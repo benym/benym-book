@@ -1,15 +1,15 @@
 ---
 home: true
-heroImage: https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png
-heroText: vuepress-theme-vdoing
+heroImage: https://image-1-1257237419.cos.ap-chongqing.myqcloud.com/img/SITELOG.png
+heroText: Knowledge base by benym
 tagline: 🚀知识管理&博客
 actionText: 从这里开始 →
-actionLink: /pages/a2f161/
+actionLink: /pages/225727/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
   - title: 知识管理
-    details: 包含三种典型的知识管理形态：结构化、碎片化、体系化。轻松打造属于你自己的知识管理平台
+    details: 包含三种典型的知识管理形态：结构化、碎片化、体系化。属于自己的知识管理平台
   - title: 简洁高效
     details: 以 Markdown 为中心的项目结构，内置自动化工具，以更少的配置完成更多的事。配合多维索引快速定位每个知识点
   - title: 沉浸式阅读
