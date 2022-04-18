@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: https://image-1-1257237419.cos.ap-chongqing.myqcloud.com/img/SITELOG.png
-heroText: Knowledge base by benym
+heroImage: https://image-1-1257237419.cos.ap-chongqing.myqcloud.com/img/SITELOG-back.png
+heroText: Knowledge base powered by benym
 tagline: 🚀知识管理&博客
 actionText: 从这里开始 →
 actionLink: /pages/225727/
