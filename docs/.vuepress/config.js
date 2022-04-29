@@ -206,7 +206,7 @@ module.exports = {
         },
         footer: { // 页脚信息
             createYear: 2022, // 博客创建年份
-            copyrightInfo: 'BEN YM | <a href="https://github.com/benym/benym-book/blob/master/LICENSE" target="_blank">MIT License</a> | <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">渝ICP备18012574号</a>', // 博客版权信息，支持a标签
+            copyrightInfo: 'benym | <a href="https://github.com/benym/benym-book/blob/master/LICENSE" target="_blank">MIT License</a> | <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">渝ICP备18012574号</a>', // 博客版权信息，支持a标签
         },
         // html广告
         // htmlModules,
@@ -285,6 +285,12 @@ module.exports = {
                     return dayjs(timestamp).format('YYYY/MM/DD, HH:mm:ss')
                 },
             }
+        ],
+        [
+            'sitemap',
+            {
+                hostname: 'https://cloud.benym.cn'
+            },
         ]
     ],
 
