@@ -98,8 +98,8 @@ module.exports = {
                 ]
             },
             {
-                text: '数据库', link: '/pages/0de67d/', items: [
-                    {text: 'MySQL', link: '/pages/0de67d/'}
+                text: '数据库', link: '/pages/0f7e8e/', items: [
+                    {text: 'MySQL', link: '/pages/0f7e8e/'}
                 ]
             },
             {
