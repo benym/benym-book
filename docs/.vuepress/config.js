@@ -124,6 +124,17 @@ module.exports = {
             },
             {text: '实践', link: '/pages/f6b758/'},
             {
+                text: '开源项目', link: '/pages/2c8c1a/',
+                items: [
+                    {
+                        text: 'Rpas',
+                        items: [
+                            {text: 'Utils', link: '/pages/2c8c1a/'}
+                        ],
+                    },
+                ],
+            },
+            {
                 text: '索引', link: '/pages/2c6c1b/', items: [
                     {text: '概览', link: '/pages/2c6c1b/'},
                     {text: '归档', link: '/blog/'},
