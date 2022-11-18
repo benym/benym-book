@@ -76,18 +76,23 @@ module.exports = {
             //     ]
             // },
             {
-                text: 'Java', link: '/pages/225727/', items: [
-                    {text: 'Java-基础', link: '/pages/225727/'},
-                    {text: 'Java-集合', link: '/pages/9786e5/'},
-                    {text: 'Java-多线程与并发', link: '/pages/487c60/'},
-                    {text: 'Java-JVM', link: '/pages/0a146e/'},
-                    {text: 'Java-IO', link: '/pages/4aef64/'}
-                ]
-            },
-            {
-                text: 'Python', link: '/pages/0de67d/', items: [
-                    {text: 'Python-基础', link: '/pages/0de67d/'},
-                    {text: 'Python-机器学习', link: '/pages/43f8b9/'},
+                text: 'Java', link: '/pages/225727/',
+                items: [
+                    {text: 'Java',
+                        items: [
+                            {text: 'Java-基础', link: '/pages/225727/'},
+                            {text: 'Java-集合', link: '/pages/9786e5/'},
+                            {text: 'Java-多线程与并发', link: '/pages/487c60/'},
+                            {text: 'Java-JVM', link: '/pages/0a146e/'},
+                            {text: 'Java-IO', link: '/pages/4aef64/'}
+                        ]
+                    },
+                    {
+                        text: 'Python', link: '/pages/0de67d/', items: [
+                            {text: 'Python-基础', link: '/pages/0de67d/'},
+                            {text: 'Python-机器学习', link: '/pages/43f8b9/'},
+                        ]
+                    }
                 ]
             },
             {
@@ -124,12 +129,12 @@ module.exports = {
             },
             {text: '实践', link: '/pages/f6b758/'},
             {
-                text: '开源项目', link: '/pages/2c8c1a/',
+                text: '开源项目', link: '/pages/3147fe/',
                 items: [
                     {
                         text: 'Rpas',
                         items: [
-                            {text: 'Utils', link: '/pages/2c8c1a/'}
+                            {text: 'Utils', link: '/pages/3147fe/'}
                         ],
                     },
                 ],
@@ -216,7 +221,7 @@ module.exports = {
             ]
         },
         footer: { // 页脚信息
-            createYear: 2022, // 博客创建年份
+            createYear: 2018, // 博客创建年份
             copyrightInfo: 'benym | <a href="https://github.com/benym/benym-book/blob/master/LICENSE" target="_blank">MIT License</a> | <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">渝ICP备18012574号</a>', // 博客版权信息，支持a标签
         },
         // html广告
