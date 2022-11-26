@@ -142,8 +142,8 @@ module.exports = {
             {
                 text: '索引', link: '/pages/2c6c1b/', items: [
                     {text: '概览', link: '/pages/2c6c1b/'},
-                    {text: '归档', link: '/blog/'},
-                    {text: '分类', link: '/categories/'},
+                    {text: '归档', link: '/archives/'},
+                    // {text: '分类', link: '/categories/'},
                     {text: '标签', link: '/tags/'},
                 ]
             },
@@ -187,7 +187,7 @@ module.exports = {
 
         // contentBgStyle: 1,
 
-        category: true, // 是否打开分类功能，默认true。 如打开，会做的事情有：1. 自动生成的frontmatter包含分类字段 2.页面中显示与分类相关的信息和模块 3.自动生成分类页面（在@pages文件夹）。如关闭，则反之。
+        category: false, // 是否打开分类功能，默认true。 如打开，会做的事情有：1. 自动生成的frontmatter包含分类字段 2.页面中显示与分类相关的信息和模块 3.自动生成分类页面（在@pages文件夹）。如关闭，则反之。
         tag: true, // 是否打开标签功能，默认true。 如打开，会做的事情有：1. 自动生成的frontmatter包含标签字段 2.页面中显示与标签相关的信息和模块 3.自动生成标签页面（在@pages文件夹）。如关闭，则反之。
         archive: true, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
 
