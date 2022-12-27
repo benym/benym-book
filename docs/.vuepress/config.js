@@ -134,7 +134,8 @@ module.exports = {
                     {
                         text: 'Rpas',
                         items: [
-                            {text: 'Utils', link: '/pages/3147fe/'}
+                            {text: 'Utils', link: '/pages/3147fe/'},
+                            {text: 'Core', link: '/pages/b127c7/'}
                         ],
                     },
                 ],
@@ -307,7 +308,20 @@ module.exports = {
             {
                 hostname: 'https://cloud.benym.cn'
             },
-        ]
+        ],
+        [
+            "md-enhance",
+            {
+                // 配置选项
+                // 启用下角标功能
+                sub: true,
+                // 启用上角标
+                sup: true,
+                // 开启脚注
+                footnote: true
+                // enableAll : true
+            },
+        ],
     ],
 
     markdown: {
