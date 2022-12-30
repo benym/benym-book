@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://image-1-1257237419.cos.ap-chongqing.myqcloud.com/img/SITELOG-back.png
+heroImage: https://image-1-1257237419.cos.ap-chongqing.myqcloud.com/img/guideline-two.png
 heroText: Knowledge base powered by benym
 tagline: 🚀知识管理&博客
 actionText: 从这里开始 →
