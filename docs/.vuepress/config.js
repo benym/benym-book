@@ -135,7 +135,7 @@ module.exports = {
                         text: 'Rpas',
                         items: [
                             {text: 'Utils', link: '/pages/3147fe/'},
-                            {text: 'Core', link: '/pages/b127c7/'}
+                            {text: 'Exception', link: '/pages/b127c7/'}
                         ],
                     },
                 ],
