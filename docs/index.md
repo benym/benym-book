@@ -35,3 +35,6 @@ postList: simple
 [comment]: <> (  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank"><img src='https://img.shields.io/github/forks/xugaoyi/vuepress-theme-vdoing' alt='GitHub forks' class="no-zoom"></a>)
 
 [comment]: <> (</p>)
+<ClientOnly>
+  <WebInfo/>
+</ClientOnly>
