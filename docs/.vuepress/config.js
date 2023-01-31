@@ -135,7 +135,7 @@ module.exports = {
                 text: '开源项目', link: '/pages/3147fe/',
                 items: [
                     {
-                        text: 'Rpas',
+                        text: 'Rpamis',
                         items: [
                             {text: 'Utils', link: '/pages/3147fe/'},
                             {text: 'Exception', link: '/pages/b127c7/'}
