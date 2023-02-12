@@ -2,6 +2,5 @@
   "name": "benym的知识笔记",
   "short_name": "benym",
   "version": "1.0.0",
-  "description": "后端知识管理&博客",
-  "manifest_version": 1
+  "description": "后端知识管理&博客"
 }
