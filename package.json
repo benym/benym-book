@@ -11,6 +11,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.9.8",
     "dayjs": "^1.9.7",
     "inquirer": "^7.1.0",
     "json2yaml": "^1.1.0",
@@ -25,7 +26,7 @@
     "yamljs": "^0.3.0"
   },
   "dependencies": {
-    "vuepress-plugin-sitemap": "^2.3.1",
-    "vuepress-plugin-md-enhance": "^1.31.0-beta.2"
+    "vuepress-plugin-md-enhance": "^1.31.0-beta.2",
+    "vuepress-plugin-sitemap": "^2.3.1"
   }
 }
