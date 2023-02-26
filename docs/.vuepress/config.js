@@ -17,7 +17,17 @@ module.exports = {
         ['meta', {name: 'theme-color', content: '#ff954b'}], // 移动浏览器主题颜色
         ['link', { rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3077305_pt8umhrn4k9.css' }], // 用于文章浏览量，阿里矢量库
         ['meta', { name: 'referrer', content: 'no-referrer-when-downgrade' }], // 用于文章浏览量，解决谷歌统计不准确的问题
-
+        ['script',{},
+            `
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?92af11dd09d5616401db6d088dec3a2f";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+            `
+        ]
         // ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
         // ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
         /*************** start 添加谷歌统计 ***********/
@@ -284,12 +294,12 @@ module.exports = {
         //   ]
         // }],
 
-        [
-            'vuepress-plugin-baidu-tongji', // 百度统计
-            {
-                hm: baiduCode || '92af11dd09d5616401db6d088dec3a2f'
-            }
-        ],
+        // [
+        //     'vuepress-plugin-baidu-tongji', // 百度统计
+        //     {
+        //         hm: baiduCode || '92af11dd09d5616401db6d088dec3a2f'
+        //     }
+        // ],
 
         ['one-click-copy', { // 代码块复制按钮
             copySelector: ['div[class*="language-"] pre', 'div[class*="aside-code"] aside'], // String or Array
