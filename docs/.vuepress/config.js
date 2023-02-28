@@ -30,24 +30,6 @@ module.exports = {
         ]
         // ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
         // ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
-        /*************** start 添加谷歌统计 ***********/
-        // [
-        //     "script",
-        //     {
-        //         src: "https://www.googletagmanager.com/gtag/js?id=UA-168383599-1",
-        //         async: true
-        //     }
-        // ],
-        // [
-        //     "script",{},
-        //     `
-        //     window.dataLayer = window.dataLayer || [];
-        //     function gtag(){dataLayer.push(arguments);}
-        //     gtag('js', new Date());
-        //     gtag('config', 'UA-168383599-1');
-        //     `
-        // ],
-        /*************** end 添加谷歌统计 ***********/
     ],
 
     // 主题配置
@@ -360,6 +342,12 @@ module.exports = {
                 serviceWorker: true,
                 updatePopup: true
             },
+        ],
+        [
+            '@vuepress/google-analytics',
+            {
+                'ga': 'UA-00000000-0' //替换成自己实际申请的ID
+            }
         ],
         {
             name: 'custom-plugins', // 自定义站点信息插件
