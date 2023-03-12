@@ -27,7 +27,8 @@ module.exports = {
                 s.parentNode.insertBefore(hm, s);
             })();
             `
-        ]
+        ],
+        ['script', { src: 'https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js' }]
         // ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
         // ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
     ],
@@ -354,6 +355,10 @@ module.exports = {
             name: 'custom-plugins', // 自定义站点信息插件
             globalUIComponents: ["PageInfo"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
         },
+        {
+            name: 'custom-twikoo-plugins',
+            globalUIComponents: ["Twikoo"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+        }
     ],
 
     markdown: {
