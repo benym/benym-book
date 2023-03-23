@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://image-1-1257237419.cos.ap-chongqing.myqcloud.com/img/guideline-two.png
+heroImage: https://image-1-1257237419.cos.ap-chongqing.myqcloud.com/img/playhome.png
 heroText: 🚀知识管理&博客
 tagline: The Knowledge Base is Deployed with a Cloud-Native Architecture
 actionText: 从这里开始 →
