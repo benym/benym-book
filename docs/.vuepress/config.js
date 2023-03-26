@@ -146,6 +146,7 @@ module.exports = {
             },
             {text: '目录', link: '/pages/059f1f/'},
             {text: '关于', link: '/about/'},
+            {text: 'ChatGPT', link: '/gpt/'},
             // {text: '案例', link: '/pages/5d571c/'},
             // {text: '问答', link: '/pages/9cc27d/'},
             // {text: '💖支持', link: '/pages/1b12ed/'},
