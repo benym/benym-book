@@ -126,7 +126,8 @@ export default {
         route.path == "/archives/" ||
         route.path == "/categories/" ||
         route.path == "/tags/" ||
-        route.path == "/about/"
+        route.path == "/about/" ||
+        route.path.include("/about/")
       ) {
         return true;
       }else {
