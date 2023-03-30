@@ -30,7 +30,8 @@ export default {
         this.$route.path == "/" ||
         this.otherPage(this.$route) ||
         this.$route.hash != "" ||
-        this.isFourZeroFour(to)
+        this.isFourZeroFour(to) ||
+        to.path !== from.path
       ) {
         return;
       }
@@ -126,8 +127,7 @@ export default {
         route.path == "/archives/" ||
         route.path == "/categories/" ||
         route.path == "/tags/" ||
-        route.path == "/about/" ||
-        route.path.toString().includes("/about/")
+        route.path == "/about/"
       ) {
         return true;
       }else {
