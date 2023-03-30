@@ -127,7 +127,6 @@ export default {
         route.path == "/categories/" ||
         route.path == "/tags/" ||
         route.path == "/about/" ||
-        route.path == "/about/#⭐关于我"
       ) {
         return true;
       }else {
