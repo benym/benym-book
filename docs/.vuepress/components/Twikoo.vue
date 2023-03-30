@@ -30,8 +30,7 @@ export default {
         this.$route.path == "/" ||
         this.otherPage(this.$route) ||
         this.$route.hash != "" ||
-        this.isFourZeroFour(to) ||
-        (to.path !== "/" && to.path !== from.path)
+        this.isFourZeroFour(to)
       ) {
         return;
       }
