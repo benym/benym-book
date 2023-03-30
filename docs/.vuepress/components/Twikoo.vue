@@ -127,7 +127,7 @@ export default {
         route.path == "/categories/" ||
         route.path == "/tags/" ||
         route.path == "/about/" ||
-        route.path.include("/about/")
+        route.path.toString().includes("/about/")
       ) {
         return true;
       }else {
