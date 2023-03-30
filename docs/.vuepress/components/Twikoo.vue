@@ -31,7 +31,7 @@ export default {
         this.otherPage(this.$route) ||
         this.$route.hash != "" ||
         this.isFourZeroFour(to) ||
-        to.path !== from.path
+        (to.path !== "/" && to.path !== from.path)
       ) {
         return;
       }
