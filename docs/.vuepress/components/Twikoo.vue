@@ -125,8 +125,7 @@ export default {
       if(
         route.path == "/archives/" ||
         route.path == "/categories/" ||
-        route.path == "/tags/" ||
-        route.path == "/about/"
+        route.path == "/tags/"
       ) {
         return true;
       }else {
