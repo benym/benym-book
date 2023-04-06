@@ -95,12 +95,8 @@ module.exports = {
                 text: '分布式与中间件', link: '', items: [
                     {text: 'Kafka', link: '/pages/b53b0f/'},
                     {text: 'Redis', link: '/pages/847591/'},
+                    {text: 'MySQL', link: '/pages/0f7e8e/'},
                     {text: '分布式事务', link: '/pages/aaed8c/'},
-                ]
-            },
-            {
-                text: '数据库', link: '/pages/0f7e8e/', items: [
-                    {text: 'MySQL', link: '/pages/0f7e8e/'}
                 ]
             },
             {
@@ -137,14 +133,14 @@ module.exports = {
                 ],
             },
             {
-                text: '索引', link: '/pages/2c6c1b/', items: [
-                    {text: '概览', link: '/pages/2c6c1b/'},
+                text: '索引', link: '/pages/059f1f/', items: [
                     {text: '归档', link: '/archives/'},
                     // {text: '分类', link: '/categories/'},
                     {text: '标签', link: '/tags/'},
+                    {text: '目录', link: '/pages/059f1f/'},
                 ]
             },
-            {text: '目录', link: '/pages/059f1f/'},
+            {text: '里程碑', link: '/milestone/'},
             {text: '关于', link: '/about/'},
             {text: 'ChatGPT', link: '/gpt/'},
             // {text: '案例', link: '/pages/5d571c/'},
