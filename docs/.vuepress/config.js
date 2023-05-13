@@ -125,7 +125,7 @@ module.exports = {
             },
             {text: '🐧实践', link: '/pages/f6b758/'},
             {
-                text: '开源项目', link: '/pages/3147fe/',
+                text: '🐳开源项目', link: '/pages/3147fe/',
                 items: [
                     {
                         text: 'Rpamis',
