@@ -147,7 +147,7 @@ module.exports = {
             },
             {text: '🦉里程碑', link: '/milestone/'},
             {text: '🐷关于', link: '/about/'},
-            {text: '🐗ChatGPT', link: '/gpt/'},
+            {text: '🐱ChatGPT', link: '/gpt/'},
             // {text: '案例', link: '/pages/5d571c/'},
             // {text: '问答', link: '/pages/9cc27d/'},
             // {text: '💖支持', link: '/pages/1b12ed/'},
