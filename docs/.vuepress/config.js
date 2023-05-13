@@ -1,6 +1,6 @@
 const baiduCode = require('./config/baiduCode.js'); // 百度统计hm码
 const htmlModules = require('./config/htmlModules.js');
-const { readFileList, readTotalFileWords, readEachFileWords } = require('./webSiteInfo/readFile'); // 自定义站点信息插件
+const {readFileList, readTotalFileWords, readEachFileWords} = require('./webSiteInfo/readFile'); // 自定义站点信息插件
 
 
 module.exports = {
@@ -15,9 +15,9 @@ module.exports = {
         ['link', {rel: 'icon', href: '/img/favicon-two.ico'}], //favicons，资源放在public文件夹
         ['meta', {name: 'keywords', content: 'Java,benym,blog,knowledge'}],
         ['meta', {name: 'theme-color', content: '#ff954b'}], // 移动浏览器主题颜色
-        ['link', { rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3077305_pt8umhrn4k9.css' }], // 用于文章浏览量，阿里矢量库
-        ['meta', { name: 'referrer', content: 'no-referrer-when-downgrade' }], // 用于文章浏览量，解决谷歌统计不准确的问题
-        ['script',{},
+        ['link', {rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3077305_pt8umhrn4k9.css'}], // 用于文章浏览量，阿里矢量库
+        ['meta', {name: 'referrer', content: 'no-referrer-when-downgrade'}], // 用于文章浏览量，解决谷歌统计不准确的问题
+        ['script', {},
             `
             var _hmt = _hmt || [];
             (function() {
@@ -28,7 +28,7 @@ module.exports = {
             })();
             `
         ],
-        ['script', { src: 'https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js' }]
+        ['script', {src: 'https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js'}]
         // ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
         // ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
     ],
@@ -36,7 +36,7 @@ module.exports = {
     // 主题配置
     themeConfig: {
         nav: [
-            {text: '首页', link: '/'},
+            {text: '🦮首页', link: '/'},
             // {
             //     text: '指南', link: '/pages/a2f161/', items: [
             //         {text: '主题初衷与诞生', link: '/pages/52d5c3/'},
@@ -72,9 +72,10 @@ module.exports = {
             //     ]
             // },
             {
-                text: 'Java', link: '/pages/225727/',
+                text: '🦁Java', link: '/pages/225727/',
                 items: [
-                    {text: 'Java',
+                    {
+                        text: 'Java',
                         items: [
                             {text: 'Java-基础', link: '/pages/225727/'},
                             {text: 'Java-集合', link: '/pages/9786e5/'},
@@ -84,7 +85,8 @@ module.exports = {
                         ]
                     },
                     {
-                        text: 'Python', link: '/pages/0de67d/', items: [
+                        text: 'Python', link: '/pages/0de67d/',
+                        items: [
                             {text: 'Python-基础', link: '/pages/0de67d/'},
                             {text: 'Python-机器学习', link: '/pages/43f8b9/'},
                         ]
@@ -92,7 +94,8 @@ module.exports = {
                 ]
             },
             {
-                text: '分布式与中间件', link: '', items: [
+                text: '🐯分布式与中间件', link: '/pages/aaed8c/',
+                items: [
                     {text: 'Kafka', link: '/pages/b53b0f/'},
                     {text: 'Redis', link: '/pages/847591/'},
                     {text: 'MySQL', link: '/pages/0f7e8e/'},
@@ -100,7 +103,7 @@ module.exports = {
                 ]
             },
             {
-                text: '框架',
+                text: '🐼框架', link: '/pages/a657d3/',
                 items: [
                     // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
                     {
@@ -113,13 +116,14 @@ module.exports = {
                 ],
             },
             {
-                text: '算法', link: '/pages/83cdcf/', items: [
+                text: '🐻算法', link: '/pages/83cdcf/',
+                items: [
                     {text: '剑指Offer', link: '/pages/83cdcf/'},
                     {text: 'LeetCode', link: '/pages/b2b5b5/'},
                     {text: '排序算法', link: '/pages/8d006a/'},
                 ]
             },
-            {text: '实践', link: '/pages/f6b758/'},
+            {text: '🐧实践', link: '/pages/f6b758/'},
             {
                 text: '开源项目', link: '/pages/3147fe/',
                 items: [
@@ -133,16 +137,17 @@ module.exports = {
                 ],
             },
             {
-                text: '索引', link: '/pages/059f1f/', items: [
+                text: '🐿️索引', link: '/pages/059f1f/',
+                items: [
                     {text: '归档', link: '/archives/'},
                     // {text: '分类', link: '/categories/'},
                     {text: '标签', link: '/tags/'},
                     {text: '目录', link: '/pages/059f1f/'},
                 ]
             },
-            {text: '里程碑', link: '/milestone/'},
-            {text: '关于', link: '/about/'},
-            {text: 'ChatGPT', link: '/gpt/'},
+            {text: '🦉里程碑', link: '/milestone/'},
+            {text: '🐷关于', link: '/about/'},
+            {text: '🐗ChatGPT', link: '/gpt/'},
             // {text: '案例', link: '/pages/5d571c/'},
             // {text: '问答', link: '/pages/9cc27d/'},
             // {text: '💖支持', link: '/pages/1b12ed/'},
@@ -219,9 +224,9 @@ module.exports = {
             createYear: 2018,
             // 博客版权信息，支持a标签
             copyrightInfo: 'benym | <a href="https://github.com/benym/benym-book/blob/master/LICENSE" target="_blank">MIT License</a>'
-                +'<br> <a href="https://www.foreverblog.cn/go.html" target="_blank"> <img src="https://img.foreverblog.cn/wormhole_4_tp.gif" alt="" style="width:auto;height:32px;vertical-align:middle;" title="穿梭虫洞-随机访问十年之约友链博客"></a>&nbsp;|&nbsp;<a href="https://www.foreverblog.cn/" target="_blank" > <img src="https://img.foreverblog.cn/logo_en_default.png" alt="" style="width:auto;height:16px;vertical-align:middle;"> </a>'
-                +'&nbsp;|&nbsp;<a href="https://cloud.tencent.com/" target="_blank"> <img src="https://help-assets.codehub.cn/enterprise/guanwang/tencent-logo.svg" alt="" style="width:auto;height:18px;vertical-align:middle;"></a>&nbsp;|&nbsp;<a href="https://coding.net/" target="_blank"> <img src="https://help-assets.codehub.cn/enterprise/guanwang/coding-logo.svg" alt="" style="width:auto;height:18px;vertical-align:middle;"></a>'
-                +'<br> <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">渝ICP备18012574号</a>'
+                + '<br> <a href="https://www.foreverblog.cn/go.html" target="_blank"> <img src="https://img.foreverblog.cn/wormhole_4_tp.gif" alt="" style="width:auto;height:32px;vertical-align:middle;" title="穿梭虫洞-随机访问十年之约友链博客"></a>&nbsp;|&nbsp;<a href="https://www.foreverblog.cn/" target="_blank" > <img src="https://img.foreverblog.cn/logo_en_default.png" alt="" style="width:auto;height:16px;vertical-align:middle;"> </a>'
+                + '&nbsp;|&nbsp;<a href="https://cloud.tencent.com/" target="_blank"> <img src="https://help-assets.codehub.cn/enterprise/guanwang/tencent-logo.svg" alt="" style="width:auto;height:18px;vertical-align:middle;"></a>&nbsp;|&nbsp;<a href="https://coding.net/" target="_blank"> <img src="https://help-assets.codehub.cn/enterprise/guanwang/coding-logo.svg" alt="" style="width:auto;height:18px;vertical-align:middle;"></a>'
+                + '<br> <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">渝ICP备18012574号</a>'
         },
         // html广告
         // htmlModules,
