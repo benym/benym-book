@@ -115,6 +115,7 @@ module.exports = {
                     },
                 ],
             },
+            {text: '🦌设计模式', link: '/pages/ac5f01/'},
             {
                 text: '🐻算法', link: '/pages/83cdcf/',
                 items: [
