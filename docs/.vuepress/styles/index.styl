@@ -96,3 +96,20 @@ body .vuepress-plugin-demo-block__wrapper
 a.sidebar-link.active {
   background: #99d5f378;
 }
+// 解决已点击侧边栏，被普通hover变色的问题
+a.sidebar-link.active:hover {
+  background: #99d5f378;
+}
+// 侧边栏未点击hover样式
+a.sidebar-link:hover {
+  color: #00a3ff;
+  background: #f8f8f8;
+}
+// 解决搜索框悬浮在博客名称之上的问题
+.navbar .links .search-box {
+    margin-left: 50px;
+}
+// 搜索框hover样式
+.search-box input:hover {
+  border-color: #00a3ff;
+}
