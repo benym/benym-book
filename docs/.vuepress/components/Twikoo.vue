@@ -140,4 +140,17 @@ export default {
 .twikoo .tk-comments {
     margin-top: 20px;
 }
+// 评论框边框样式
+.tk-submit {
+    border: 1px solid #eaecef;
+    border-radius: 0.75em;
+    box-shadow: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.tk-row {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
 </style>
