@@ -8,7 +8,7 @@
     "baiduPush": "node utils/baiduPush.js https://cloud.benym.cn && bash baiduPush.sh",
     "updateTheme": "yarn remove vuepress-theme-vdoing && rm -rf node_modules && yarn && yarn add vuepress-theme-vdoing -D",
     "editFm": "node utils/editFrontmatter.js",
-    "fix-memory-limit": "cross-env LIMIT=3072 increase-memory-limit"
+    "fix-memory-limit": "cross-env LIMIT=4000 increase-memory-limit"
   },
   "license": "MIT",
   "devDependencies": {
