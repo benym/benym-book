@@ -27,6 +27,8 @@
   },
   "dependencies": {
     "@vuepress/plugin-google-analytics": "^1.9.9",
+    "vue-google-adsense": "^1.10.1",
+    "vue-script2": "^2.1.0",
     "vuepress-plugin-md-enhance": "^1.31.0-beta.2",
     "vuepress-plugin-sitemap": "^2.3.1"
   }
