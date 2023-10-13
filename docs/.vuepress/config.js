@@ -17,6 +17,7 @@ module.exports = {
         ['meta', {name: 'theme-color', content: '#ff954b'}], // 移动浏览器主题颜色
         ['link', {rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3077305_pt8umhrn4k9.css'}], // 用于文章浏览量，阿里矢量库
         ['meta', {name: 'referrer', content: 'no-referrer-when-downgrade'}], // 用于文章浏览量，解决谷歌统计不准确的问题
+        ['meta', {name: 'google-site-verification', content: 'GGOs08Ncqj_CwyR81LjlOH5dPhuymd4eLVS5x6PPQew'}], // 谷歌站长统计
         ['script', {},
             `
             var _hmt = _hmt || [];
