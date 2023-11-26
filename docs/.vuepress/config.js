@@ -147,7 +147,8 @@ module.exports = {
                         text: 'Rpamis',
                         items: [
                             {text: 'Utils', link: '/pages/3147fe/'},
-                            {text: 'Exception', link: '/pages/b127c7/'}
+                            {text: 'Exception', link: '/pages/b127c7/'},
+                            {text: 'Security', link: '/pages/792496/'},
                         ],
                     },
                 ],

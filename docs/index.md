@@ -4,7 +4,7 @@ heroImage: https://image-1-1257237419.cos.ap-chongqing.myqcloud.com/img/playhome
 heroText: benym's knowledge base
 tagline: The Knowledge Base is Deployed with a Cloud-Native Architecture
 actionText: 从这里开始 →
-actionLink: /pages/225727/
+actionLink: /pages/792496/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
