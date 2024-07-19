@@ -29,7 +29,7 @@ module.exports = {
             })();
             `
         ],
-        ['script', {src: 'https://cdn.staticfile.org/twikoo/1.6.16/twikoo.all.min.js'}],
+        ['script', {src: 'https://cdn.jsdelivr.net/npm/twikoo@1.6.38/dist/twikoo.min.js'}],
         // google adsense
         // ['meta', {name: 'google-adsense-account', content: 'ca-pub-2429794804566519'}],
         // ['script',
